@@ -17,6 +17,12 @@ public class Point {
 	   System.out.println(p3.x+""+p3.y);
    }
    
+   public boolean isSameAs( Point p) {
+	   if(p.x == this.x && p.y == this.y) {
+		   return true;
+	   }
+	   return false;
+   }
 }
 
 /* cela fonctionne car nous avons initialement créer les variables x et y.
@@ -27,6 +33,11 @@ public class Point {
  * Point p = new Point(); permet de creer un objet de la classe Point
  * System.out.println(p.x+""+p.y) permet de print les valeurs des attributs x
  * et y de l'objet de type Point() donc cela marche.
-
+ * 
+ * EXO3)
+ * 1 la premier print True car cest la meme reference
+ *   le second afiche false
+ * 
+ * 3) il va renvoyer l'index de p1 dans le premier cas et -1 dans le second
 */
 
