@@ -8,6 +8,7 @@ public class Point {
    public void methode()
    {
 	   Point p = new Point();
+	   
 	   System.out.println("("+p.x+","+p.y+")");
    }
    
@@ -16,6 +17,15 @@ public class Point {
 	   Point p3 = p2;
 	   System.out.println(p3.x+""+p3.y);
    }
+   
+   public void methode3(int pp1, int pp2)
+   {   
+	   Point p4 = new Point();
+	   this.x = pp1;
+	   this.y = pp2;
+	
+   }
+   
    
    public boolean isSameAs( Point p) {
 	   if(p.x == this.x && p.y == this.y) {
