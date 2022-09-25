@@ -14,7 +14,8 @@ public class main {
          Q3 : Propose d'Overide la methode ToString()
          
          Q4:  public static void main(String[] args) {}
-         Q5
-       
+         Q5:  constructeur apparait: public Classe_test() {TODO();}
+  		 Q6:  Propose de rename la classe
+  		 Q7:  La documentation de String apparait
     
    */
