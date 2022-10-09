@@ -1,4 +1,4 @@
-package TD2;
+package fr.dauphine.javaavance.td2;
 
 public class EXO2 {
 
